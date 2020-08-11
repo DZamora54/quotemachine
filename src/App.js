@@ -38,8 +38,8 @@ class QuoteMachine extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      quoteAuthor: "No Author",
-      quoteText: "No Text",
+      quoteAuthor: "",
+      quoteText: "",
       twitterUrl: ""
     };
     this.handleClick = this.handleClick.bind(this);
