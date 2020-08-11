@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
+import QuoteMachine from './App';
+import Header from './Header';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <QuoteMachine />
   </React.StrictMode>,
   document.getElementById('root')
 );
